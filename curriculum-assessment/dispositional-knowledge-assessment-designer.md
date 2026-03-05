@@ -209,68 +209,144 @@ Return your output in this exact format:
 ### 1. Observation Protocol
 
 **What to notice:**
-[5–7 prompts for noticing, derived from the band descriptors. Each prompt describes an observable behaviour the teacher might see — or might notice the absence of.]
+
+Provide 5–7 prompts for noticing, derived directly from the band descriptors. Each prompt should:
+- Name a specific observable behaviour the teacher might see in classroom, project, or social contexts
+- Describe what that behaviour looks like concretely — not just "shows initiative" but the specific actions, language, or patterns that constitute initiative at this band level
+- Distinguish the target behaviour from adjacent behaviours that look similar but are qualitatively different (e.g., compliance vs. agency, dependence vs. strategic support-seeking)
+- Include at least one prompt focused on how the student TALKS about their work — ownership language, planning language, or reflective language that reveals the disposition even when behaviour is ambiguous
+
+Introduce the prompts with a framing note reminding the teacher that these are patterns to watch for across the term, not boxes to tick — they will not see all of them in every student or every context.
 
 **When and how to observe:**
-[Frequency guidance, richest observation contexts, and recording format]
+
+Specify:
+- **Frequency:** How often the teacher should deliberately attend to this disposition (e.g., "at least twice per week during project sessions" or "once per week during collaborative tasks"). Emphasise that this is intentional noticing for 5 minutes, not formal observation.
+- **Richest contexts:** Which classroom situations are most likely to reveal the disposition — typically moments of ambiguity, choice, difficulty, or transition where the student's default response becomes visible. Name 3–4 specific contexts for this competency and band.
+- **Recording format:** Brief dated notes of 1–3 sentences in a running document or notebook. Emphasise timestamps over detail — the teacher is building a pattern over time, not writing a report. Provide an example observation note showing the format: date, what the student did, and one sentence of interpretation.
 
 **Negative-space indicators:**
-[What absence of behaviour is also informative]
+
+Describe what ABSENCE of the disposition looks like in contexts where it could reasonably be expected. Name 2–3 specific absences that are informative — e.g., a student who consistently waits for instructions rather than initiating, or who never seeks support despite struggling visibly. Explain that absence is evidence, not just presence, and that patterns of absence across multiple observations point to where the developmental edge lies.
 
 ### 2. Student Self-Reflection Tool
 
 **For the student:**
-[4–6 open questions calibrated to the band level. Written in language appropriate for the age range. These generate evidence through stories and examples, not self-ratings.]
+
+Write 4–6 open-ended reflection questions, fully written out as the student would read them. These must be:
+- Calibrated to the developmental band specified — use the band-level guidance from the principles above (Band A: concrete stories; Band B: connecting actions to patterns; Band C: comparing across contexts; Band D: metacognitive interpretation of own patterns over time)
+- Written in age-appropriate language — a Band A prompt should sound like a conversation with a 6-year-old; a Band D prompt should respect a 13-year-old's capacity for self-analysis
+- Framed as invitations to share stories, examples, and specific moments — never as self-rating scales or agree/disagree statements
+- Preceded by a brief introductory sentence addressed to the student that sets a reflective, non-judgmental tone (e.g., "Reflect on your [competency] this term. Take your time — there are no right answers. What matters is that you think honestly about your own patterns.")
+
+Each question should target a different facet of the disposition: at least one about a moment of strength, one about a moment of difficulty, one about contextual variation (where the disposition is easier/harder), and one about change over time.
 
 **Teacher guidance for using this tool:**
-[How to introduce the reflection, when to use it, how to respond to what the student writes or says]
+
+Provide specific guidance on:
+- **Timing:** When to give the prompts to the student (e.g., 2–3 days before a developmental conversation, not during it) and why advance time matters for quality reflection
+- **Format flexibility:** Whether the student can write, record audio, draw, or discuss verbally — the medium does not matter; the quality of reflection does
+- **How to read responses:** The teacher reads for evidence (stories, examples, patterns) not for quality of writing. Do NOT grade the reflections.
+- **What to do with contradictions:** If the student's self-reflection contradicts teacher observations, this is valuable diagnostic information — it may reveal that the student experiences the disposition differently from how the teacher sees it, or that it manifests differently in unobserved contexts.
 
 ### 3. Parent/Caregiver Input Guide (Optional)
 
 **Introduction for families:**
-[A brief, warm, jargon-free explanation of what you're asking and why]
+
+Write a complete introductory paragraph addressed to families, fully written out as they would read it. It must:
+- Name the competency in plain language (not educational jargon)
+- Explain briefly why the school values this competency
+- Explain what you are asking for: observations of behaviour at home and in the community, not an assessment or rating
+- Explicitly state that responding is optional and that the student's assessment will be complete without this input
+- Use warm, inviting language — "We'd love to know what you notice" not "Please complete this form"
+- Address "families" or "dear families" rather than "parents" — the guide should work for any caregiver
 
 **Questions:**
-[3–5 specific questions about observable behaviours at home/in the community]
+
+Write 3–5 specific questions, fully written out as the caregiver would read them. Each question should:
+- Ask about observable behaviours in home or community contexts — what the caregiver can see the student doing, not what the caregiver thinks the student understands
+- Be specific enough to elicit concrete examples, not generic impressions (e.g., "Does [student name] take on projects or tasks at home without being asked? Can you give a recent example?" not "How independent is your child?")
+- Avoid educational jargon entirely — no "agency," "metacognition," "self-regulation" or band-level language
+- Include one question that asks about change over time ("Have you noticed any changes in [student name]'s independence this term?")
+- Include one open question ("Is there anything about how [student name] approaches their own projects that you think we should know about?")
 
 **Note on use:**
-[How the teacher will use this input, and explicit acknowledgment that not all families will respond — and that's fine]
+
+Write a brief note (2–3 sentences) explaining: how the input will be used (alongside teacher observations and student reflections to build a full picture), that it will be shared at any meeting with the student present (no secrets), and that not all families will respond — and that is genuinely fine. If the school has specific protocols around sensitive disclosures, note that caregivers can flag anything they would prefer discussed privately.
 
 ### 4. Synthesis Guide
 
 **Bringing evidence together:**
-[Step-by-step process for synthesising observations, self-reflections, and any parent input]
+
+Provide a step-by-step synthesis process (4 steps) that the teacher follows before the developmental conversation:
+- **Step 1:** Read each evidence source independently — teacher observations, student self-reflection, any parent input. Note the 2–3 strongest themes from each source separately, without cross-referencing yet.
+- **Step 2:** Identify convergence — where do sources agree? Describe what convergent evidence looks like for this competency (e.g., teacher sees the behaviour, student identifies it as a strength, parent reports similar patterns at home). Explain that convergence is the strongest form of evidence.
+- **Step 3:** Identify divergence — where do sources disagree? Provide 2–3 specific examples of common divergence patterns for this competency (e.g., teacher sees strong disposition but student reports feeling uncertain; student claims strong disposition but teacher sees dependency; parent sees the disposition at home but teacher does not see it at school). For each pattern, explain what it typically reveals — e.g., the student may be performing the disposition outwardly while experiencing insecurity inwardly, or the disposition may be genuinely context-dependent.
+- **Step 4:** Write a developmental narrative — 3–5 sentences that describe where the student is, what the evidence shows, and what the trajectory looks like. Provide a model sentence structure: "Shows strong [competency] in [context]; less visible in [context]. The developmental edge for next term is [specific next step]."
 
 **Handling contradictions:**
-[What contradictions typically look like for this competency and how to interpret them]
+
+Explain that contradictions between sources are diagnostic information, not errors. They typically reveal one of three things:
+1. **Context-dependence** — the disposition genuinely manifests differently in different settings (the most common explanation)
+2. **Perception gap** — the student, teacher, or parent perceives the disposition differently from how it is enacted
+3. **Developmental transition** — the student is between levels and their behaviour is inconsistent because the disposition is actively developing
+
+Instruct the teacher NOT to resolve contradictions by averaging or by privileging one source. Instead, name the contradiction and explore it in the developmental conversation.
 
 **Sufficient evidence threshold:**
-[How much evidence is enough for a developmental narrative]
+
+State the minimum evidence requirements: at least 5 teacher observation entries over at least 4 weeks showing a consistent pattern (or a meaningful inconsistency), plus at least one student self-reflection that generates specific examples. Parent input is valuable but NOT required for sufficiency. If evidence is below threshold, the narrative should explicitly note limited evidence. Explain that a single impressive moment is an event, not evidence of development — development is a pattern over time.
 
 **Contextual variation:**
-[How to name and interpret context-dependent patterns without averaging them away]
+
+Explain that a student may demonstrate the disposition at different band levels in different contexts — and that this is developmentally normal, not a problem. Instruct the teacher to NAME the variation specifically (e.g., "Shows Band D [competency] in self-directed investigation; approaching Band C in collaborative contexts"). State that the teacher should NOT average contextual variation into a single band level — the variation IS the developmental picture, and it points to where the next growth opportunity lies.
 
 ### 5. Developmental Conversation Guide
 
 **What to share at Band [X]:**
-[Specific guidance on transparency level for this band]
+
+Write specific guidance on what to share and what to hold back for the band specified in the input. Follow the band-calibrated transparency principles:
+- At Band A/B: describe what to affirm and name ("I noticed you... That's [competency]"), what NOT to share (scores, band levels, comparisons), and the experience the student should have (recognition, not judgment)
+- At Band C: describe how to share patterns and invite interpretation ("I've noticed something interesting..."), what level of synthesis to show the student, and how to balance teacher observation with student meaning-making
+- At Band D: describe full transparency — showing the synthesis, sharing all evidence sources, and inviting the student to lead the interpretation ("Here's what I've gathered. What patterns do you see?"). Explain the teacher's role shift from telling to facilitating.
+
+For all bands: list what to always hold back — comparative language ("You're further along than most"), labelling ("You're a Band D student"), and deficit framing ("You still need to work on...").
 
 **Coaching questions:**
-[3–4 genuinely curious questions for this band level]
+
+Write 3–4 specific coaching questions, fully written out as the teacher would say them. These must be:
+- Genuinely curious, not leading — they imply growth, not deficit
+- Connected to the student's own experience and the specific evidence gathered
+- Calibrated to the band's metacognitive capacity — Band A questions ask for stories, Band D questions invite pattern interpretation and self-directed goal-setting
+- At least one question that connects teacher observations to student self-reflection ("You mentioned [X]. I noticed something similar when [Y]. What do you think is behind that?")
 
 **Using band descriptors as vocabulary:**
-[How to reference the descriptors without turning them into grades]
+
+Provide a specific example showing how to reference the band descriptor in conversation as shared vocabulary rather than grading criteria. Show a model sentence: "This descriptor talks about '[specific phrase from descriptor]' — I've noticed you do that really naturally in [context] but not yet in [other context]. Let's think about why that might be." Then state explicitly what NEVER to do: "You've met 4 out of 5 elements of the descriptor" — this turns vocabulary into criteria and the conversation into a grading exercise.
 
 **Goal-setting:**
-[How to close the conversation with a student-owned goal]
+
+Describe how to close the conversation: the teacher asks the student to identify one thing they want to work on, stated in their own words (not the band descriptor's words). Provide 1–2 example prompts for eliciting the goal. Explain that the goal should be specific enough to notice but not so specific it becomes a checklist item. State that the teacher records the goal and both keep a copy, and that the next developmental conversation opens by revisiting this goal.
 
 ### 6. Integration with Feedback Structures
 
-[How to integrate this assessment approach into the school's existing feedback structures — or general guidance if none specified]
+If a school feedback structure was provided in the input, design a specific integration plan:
+- **Before the session:** What the teacher prepares (synthesis completion, evidence selection, coaching question selection) and how long this takes
+- **During the session:** A suggested minute-by-minute structure for the dispositional portion of the session, showing who speaks, what they share, and where the coaching questions and goal-setting fit. Specify how much of the total session time should be allocated to this competency.
+- **What the session should NOT include:** Band levels or scores, comparisons to other students, teacher monologues. The student leads; the teacher adds evidence; the family contributes perspective.
+
+If no feedback structure was provided, offer general guidance: recommend a standalone 15-minute developmental conversation between teacher and student at least once per term, describe how to share the narrative with families in written form if face-to-face is not possible, and note that observation notes and synthesis should be kept as portfolio evidence.
 
 ### Time and Workload Estimate
 
-[Honest estimate of teacher time required — for observation, for synthesis, for the conversation. Include suggestions for making it sustainable.]
+Provide an honest, itemised estimate of teacher time per student per term for each component:
+- **Observation:** Minutes per observation session × frequency × weeks in term, plus recording time. State the total.
+- **Student self-reflection:** Time to distribute prompts + time to read each response. State the total.
+- **Parent input:** Time to send the guide + time to read responses (if received). State the total, and note that it is zero if the family does not respond.
+- **Synthesis:** Time for the four-step synthesis process. Note that this is the most demanding step and cannot be reduced without losing quality.
+- **Developmental conversation:** Time for the conversation itself within any existing session structure.
+- **Total per student per term:** Sum the components. Then multiply by class size to show the full-class investment. Be honest — if the total is significant, say so. Name it as a real cost and explain that the question is not "Is this faster than a rubric?" (it isn't) but "Does this produce a more valid and useful picture of dispositional development?" (it does).
+- **Sustainability strategies:** Provide 3–4 specific strategies for managing the workload — e.g., rotating which competencies receive full assessment each term, integrating observation into existing circulation practice, identifying the minimum viable approach if the full version is unsustainable.
 
 **Self-check before returning output:** Verify that (a) NOTHING in the output looks like a rubric, a score, or a summative grade, (b) the self-reflection tool uses open questions, not rating scales, (c) the observation protocol uses prompts for noticing, not a checklist, (d) the developmental conversation guide calibrates transparency to the band level, (e) parent input is genuinely optional and jargon-free, (f) the synthesis guide addresses contradictions and contextual variation explicitly, and (g) time estimates are honest.
 ```
