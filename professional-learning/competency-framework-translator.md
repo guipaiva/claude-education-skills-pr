@@ -125,7 +125,7 @@ Return your output in this exact format:
 ### Observable Indicators
 
 For each level (3–4 levels):
-**Level [N]: [Label — e.g. Developing / Competent / Advanced]**
+**Level [N]: [Label — Emerging / Developing / Competent / Extending]**
 - **The student can:** [Specific, observable actions — what you'd SEE them doing]
 - **Evidence looks like:** [What their work, discussion, or behaviour would show]
 - **The student cannot yet:** [What distinguishes this level from the next]
@@ -175,17 +175,22 @@ In Year 9 History, this means: when students research a historical topic online,
 
 ### Observable Indicators
 
-**Level 1: Developing — Identifies basic credibility markers**
+**Level 1: Emerging — Recognises that source credibility matters**
+- **The student can:** Distinguish between different types of online source (website, blog, news article, social media post) and understand that not all sources are equally reliable. Can identify whether a source has a named author.
+- **Evidence looks like:** When asked "Where did you find this information?", the student can name the source and its type. May note "I'm not sure if this is reliable" but cannot yet explain why.
+- **The student cannot yet:** Evaluate credibility using specific criteria, or give reasons beyond "it looks trustworthy" or "it was the first result."
+
+**Level 2: Developing — Identifies basic credibility markers**
 - **The student can:** Check whether a website has a named author, identify whether the source is a personal blog vs. an educational site vs. a news article, and notice when a source makes claims without evidence.
 - **Evidence looks like:** The student's research notes include the source URL AND the author/organisation name. When asked "Is this a good source?", the student can give at least one reason ("It's from a university" or "I can't find who wrote it").
 - **The student cannot yet:** Compare two sources to evaluate which is more reliable, or identify subtle bias (e.g., a nationalist perspective on the causes of WW1).
 
-**Level 2: Competent — Evaluates and compares sources**
+**Level 3: Competent — Evaluates and compares sources**
 - **The student can:** Compare two or more sources on the same topic and identify which is more credible, giving specific reasons. Can identify basic bias ("This website is run by a German heritage organisation — they might present the German perspective differently from a British source"). Can check whether claims are supported by evidence cited in the source.
 - **Evidence looks like:** The student's research notes evaluate each source: "I'm using this source because [reason] but not this one because [reason]." In their written work, the student selects sources based on credibility, not just convenience (not just the first Google result).
 - **The student cannot yet:** Recognise sophisticated bias (e.g., how source selection itself shapes a narrative), or evaluate the methodology behind the source's claims.
 
-**Level 3: Advanced — Critically evaluates credibility, bias, and purpose**
+**Level 4: Extending — Critically evaluates credibility, bias, and purpose**
 - **The student can:** Analyse the purpose and audience of a digital source ("This was written to commemorate the centenary of WW1 for a British audience — its purpose is memorial, not analytical, which affects what it includes and excludes"). Can cross-reference claims between multiple sources to check consistency. Can articulate why even credible sources may be incomplete or biased.
 - **Evidence looks like:** The student's research explicitly addresses reliability: "Source A (BBC History) and Source B (Wikipedia) both state that the assassination of Archduke Franz Ferdinand triggered WW1, but Source C (a journal article) argues that the assassination was a catalyst, not a cause. Source C is more analytically useful because it distinguishes between triggers and causes."
 - **The student cannot yet:** Evaluate primary sources in digital archives with full historiographical awareness (this is A-level/university level).
@@ -209,12 +214,12 @@ In Year 9 History, this means: when students research a historical topic online,
 
 ### Assessment Criteria
 
-| Criterion | Developing | Competent | Advanced |
-|---|---|---|---|
-| Identifies source characteristics | Names the source type (blog, news, academic) | Evaluates credibility based on author, evidence, and purpose | Analyses how purpose and audience shape the source's content |
-| Compares sources | Notes that different sources say different things | Ranks sources by reliability with specific reasons | Cross-references claims across multiple sources to identify consensus and disagreement |
-| Detects bias | Recognises obvious bias ("This is one-sided") | Identifies how bias affects specific claims ("This source blames Germany because...") | Explains how even balanced sources involve selection and framing |
-| Uses evaluation in own work | Cites sources but doesn't evaluate them | Selects sources based on credibility and notes limitations | Integrates source evaluation into their argument ("According to the more reliable Source A...") |
+| Criterion | Emerging | Developing | Competent | Extending |
+|---|---|---|---|---|
+| Identifies source characteristics | Distinguishes source types (blog, news, academic) | Names the source type and checks for author/evidence | Evaluates credibility based on author, evidence, and purpose | Analyses how purpose and audience shape the source's content |
+| Compares sources | Recognises that sources may differ | Notes that different sources say different things | Ranks sources by reliability with specific reasons | Cross-references claims across multiple sources to identify consensus and disagreement |
+| Detects bias | Understands that sources can be biased | Recognises obvious bias ("This is one-sided") | Identifies how bias affects specific claims ("This source blames Germany because...") | Explains how even balanced sources involve selection and framing |
+| Uses evaluation in own work | Includes sources but does not evaluate them | Cites sources with basic credibility notes | Selects sources based on credibility and notes limitations | Integrates source evaluation into their argument ("According to the more reliable Source A...") |
 
 ### Integration Notes
 

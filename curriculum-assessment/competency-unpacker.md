@@ -113,9 +113,9 @@ Apply these evidence-based principles:
    - These become assessment design priorities — good assessments surface these misconceptions.
 
 4. **Multi-level success criteria (Hattie, 2009):**
-   - Provide success criteria at four levels: Beginning, Developing, Secure, Extending.
+   - Provide success criteria at four levels: Emerging, Developing, Competent, Extending.
    - Each level should describe what the student CAN do (not what they can't).
-   - Levels should be qualitatively different, not just quantitatively different (Secure is not "more of" Developing — it's a different quality of response).
+   - Levels should be qualitatively different, not just quantitatively different (Competent is not "more of" Developing — it's a different quality of response).
    - Use descriptive language, not evaluative labels.
 
 Return your output in this exact format:
@@ -146,9 +146,9 @@ Return your output in this exact format:
 
 | Level | What the student does |
 |-------|----------------------|
-| **Beginning** | [Description of early, partial demonstration] |
+| **Emerging** | [Description of early, partial demonstration] |
 | **Developing** | [Description of growing but inconsistent demonstration] |
-| **Secure** | [Description of consistent, accurate demonstration] |
+| **Competent** | [Description of consistent, accurate demonstration] |
 | **Extending** | [Description of sophisticated, independent application] |
 
 ### Implications for Teaching
@@ -207,9 +207,9 @@ A student who has achieved this competency:
 
 | Level | What the student does |
 |-------|----------------------|
-| **Beginning** | Identifies some language features (e.g., "The writer uses a simile"). May attempt to describe effect but defaults to generic claims ("This is effective" / "This makes the reader want to read on"). Focuses on language only; structural analysis is absent or superficial. Quotations are included but not embedded in analysis. |
+| **Emerging** | Identifies some language features (e.g., "The writer uses a simile"). May attempt to describe effect but defaults to generic claims ("This is effective" / "This makes the reader want to read on"). Focuses on language only; structural analysis is absent or superficial. Quotations are included but not embedded in analysis. |
 | **Developing** | Identifies language features AND begins to explain specific effects ("The simile 'cold as a gravestone' suggests death and creates an unsettling atmosphere"). Attempts structural analysis but may describe rather than analyse ("The text starts with a question"). Evidence is relevant but analysis is inconsistent — some points are developed, others stop at identification. |
-| **Secure** | Analyses both language AND structure with specific, developed explanations of effect. Links techniques to the writer's purpose ("Priestley uses the short sentence 'We are responsible' at the end of the Inspector's speech to deliver his moral message with force — the simplicity contrasts with Birling's verbose speeches, positioning the reader to trust the Inspector's clarity over Birling's bluster"). Quotations are embedded and well-selected. Analysis is consistent across the response. |
+| **Competent** | Analyses both language AND structure with specific, developed explanations of effect. Links techniques to the writer's purpose ("Priestley uses the short sentence 'We are responsible' at the end of the Inspector's speech to deliver his moral message with force — the simplicity contrasts with Birling's verbose speeches, positioning the reader to trust the Inspector's clarity over Birling's bluster"). Quotations are embedded and well-selected. Analysis is consistent across the response. |
 | **Extending** | Produces perceptive, original analysis that considers multiple possible effects and evaluates which is most likely. Analyses how language and structure work TOGETHER ("The shift from long, flowing sentences to a single blunt statement at the paragraph's end mirrors the character's emotional shift from denial to realisation — the structure enacts what the language describes"). May consider alternative interpretations. Analytical vocabulary is precise and varied. |
 
 ### Implications for Teaching
@@ -218,7 +218,7 @@ A student who has achieved this competency:
 
 2. **Structural analysis must be taught separately from language analysis.** Students default to word/phrase-level analysis because it's concrete and visible. Structure (paragraph organisation, text-level patterns, positioning of key moments) is more abstract and requires a different analytical lens — looking at the text as a whole, not zooming into individual phrases.
 
-3. **Success criteria should be shared with students BEFORE they write.** The four-level descriptions can be used as self-assessment tools: "Read your response. Are you at Developing (naming techniques but not always explaining effects) or Secure (consistently explaining HOW techniques create specific effects)? What would you need to add to move up?"
+3. **Success criteria should be shared with students BEFORE they write.** The four-level descriptions can be used as self-assessment tools: "Read your response. Are you at Developing (naming techniques but not always explaining effects) or Competent (consistently explaining HOW techniques create specific effects)? What would you need to add to move up?"
 
 ---
 
@@ -226,6 +226,6 @@ A student who has achieved this competency:
 
 1. **The unpacking reflects general expectations for this competency at the stated level.** Specific exam boards, curricula, or school policies may define the competency differently or emphasise different components. Teachers should cross-reference the unpacking with their specific assessment framework and adjust where needed.
 
-2. **Success criteria at four levels necessarily simplify a continuum.** Student work exists on a spectrum, not in neat categories. Some responses may demonstrate Secure analysis of language but Beginning analysis of structure. The levels are guides for feedback, not rigid classifications — the teacher must use professional judgement when a response spans multiple levels.
+2. **Success criteria at four levels necessarily simplify a continuum.** Student work exists on a spectrum, not in neat categories. Some responses may demonstrate Competent analysis of language but Emerging analysis of structure. The levels are guides for feedback, not rigid classifications — the teacher must use professional judgement when a response spans multiple levels.
 
 3. **The common misconceptions listed are the MOST common, not all possible ones.** Individual students may hold different misconceptions based on their prior instruction, first language, or conceptual framework. The listed misconceptions should be treated as starting points for diagnostic assessment, not as an exhaustive list.
