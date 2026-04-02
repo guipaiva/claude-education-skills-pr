@@ -7,48 +7,12 @@
 
 An open-source library of 108 evidence-based pedagogical skills for curriculum design, lesson planning, and assessment — usable today by any educator with access to Claude, and engineered for AI agent orchestration.
 
-## Installation
-
-Three ways to use the library, depending on your setup:
-
-### Claude.ai / Claude Desktop / Cowork
-
-Upload the library as a ZIP file via **Settings → Features → Skills**, or toggle it on from the Skills Directory once listed. All 108 skills become available in your conversations — skills auto-activate when your conversation matches their trigger descriptions.
-
-### Claude Code
-
-```
-/plugin install GarethManning/claude-education-skills
-```
-
-One command. All 108 skills load as Agent Skills with progressive disclosure — only the skill metadata is loaded until a skill is actually needed.
-
-### API / Programmatic Access
-
-Connect to the live MCP server:
-
-```
-https://mcp-server-sigma-sooty.vercel.app/mcp
-```
-
-Any MCP-compatible client can discover all 108 skills, read their schemas, and call them with structured parameters. Four meta-tools provide discovery: `list_skills`, `find_skills`, `suggest_skills`, and `get_skill_details`.
-
-## What Changed in v2
-
-The library is now compliant with the **Agent Skills 1.0 open standard**. What this means in practice:
-
-- **One-command install** — no manual setup, no copy-pasting prompts
-- **Progressive disclosure** — skill metadata loads first; full skill content loads only when activated, keeping context lean
-- **Auto-activation** — skills trigger when your conversation matches their description, without explicit invocation
-- **Machine-readable registry** — `registry.json` indexes all skills with descriptions, tags, chaining metadata, and domain grouping for programmatic consumption
-- **Backward compatible** — the MCP server, direct prompt use, and all existing workflows continue to work unchanged
-
 ---
 
-**👩‍🏫 I'm an educator — [start here →](#try-it-now)**
-No setup required. Copy a prompt, paste into Claude, get structured output.
+**I'm an educator — [start here](#try-it-now)**
+No setup required. Install the plugin and start teaching.
 
-**🛠️ I'm a developer or AI builder — [start here →](#architecture)**
+**I'm a developer or AI builder — [start here](#architecture)**
 YAML schemas, typed inputs and outputs, chaining metadata, [live MCP server](#mcp-server).
 
 ---
@@ -81,23 +45,69 @@ That is one use case. The same library can power school-wide curriculum audits, 
 
 ---
 
+## Installation
+
+Three ways to use the library, depending on your setup:
+
+### Claude.ai / Claude Desktop / Cowork
+
+Upload the library as a ZIP file via **Settings > Features > Skills**, or toggle it on from the Skills Directory once listed. Skills auto-activate when your conversation matches their topic — no explicit invocation needed.
+
+### Claude Code CLI
+
+```
+/plugin install GarethManning/claude-education-skills
+```
+
+Skills load with progressive disclosure — metadata only until a skill is actually needed.
+
+### API / Programmatic Access
+
+Connect to the live MCP server:
+
+```
+https://mcp-server-sigma-sooty.vercel.app/mcp
+```
+
+Use this when you're building tools or agents that need to call skills programmatically. Four meta-tools provide discovery: `list_skills`, `find_skills`, `suggest_skills`, and `get_skill_details`.
+
+## What Changed in v2
+
+The library is now compliant with the **Agent Skills 1.0 open standard**. What this means in practice:
+
+- **One-command install** — no manual setup, no copy-pasting prompts
+- **Progressive disclosure** — skill metadata loads first; full skill content loads only when activated, keeping context lean
+- **Auto-activation** — skills trigger when your conversation matches their description, without explicit invocation
+- **Machine-readable registry** — `registry.json` indexes all skills with descriptions, tags, chaining metadata, and domain grouping for programmatic consumption
+- **Backward compatible** — the MCP server, direct prompt use, and all existing workflows continue to work unchanged
+
+---
+
 ## Try It Now
+
+### With the plugin (recommended)
+
+Install the plugin, then tell Claude what you need in plain language. The skills activate automatically.
+
+**Example:** Say *"I'm planning a Year 9 science unit on cells — 6 weeks, 3 lessons a week."*
+
+Claude runs the **Backwards Design Unit Planner**, the **Spaced Practice Scheduler**, and the **Retrieval Practice Generator** in parallel. In under 90 seconds you get a complete lesson-by-lesson plan with spaced retrieval built in, evidence-grounded sequencing, and ready-to-use formative assessment activities — all calibrated to the timeline and topic list you provided.
+
+### Without the plugin (manual)
 
 No API key. No technical setup. No dependencies.
 
-1. Open any skill file in the repository
+1. Open any skill file in the repository (under `skills/`)
 2. Copy the prompt block
 3. Paste it into Claude and fill in the fields for your class or context
 
-**Here is what that looks like.** Open `memory-learning-science/02-spaced-practice-scheduler.md` and provide:
+**Example:** Open `skills/memory-learning-science/spaced-practice-scheduler/SKILL.md` and provide:
 
 - Topics: Cell structure, Cell transport, Cell division, Enzymes, Biological molecules
 - Timeline: 8-week term, starting 3 February
 - Lessons per week: 3
 
-**Claude returns:** A complete week-by-week schedule showing when to teach new content and when to revisit previous topics at expanding intervals — with specific retrieval activities for each review slot (not "review cells" but "draw and label the cell membrane from memory, then check against your notes"). The schedule follows Cepeda et al.'s (2006) meta-analysis on optimal spacing intervals, includes interleaving across topics, and comes with practical guidance on what to do when review reveals gaps.
-
-That is one skill. There are 106.
+Claude returns a complete week-by-week schedule showing when to teach new content and when to revisit previous topics at expanding intervals — with specific retrieval activities for each review slot. The schedule follows Cepeda et al.'s (2006) meta-analysis on optimal spacing intervals, includes interleaving across topics, and comes with practical guidance on what to do when review reveals gaps.
 
 ---
 
@@ -135,7 +145,7 @@ YAML schema headers, typed input and output fields, chaining metadata, and compo
 | 4 | **Questioning, Discussion & Dialogue** | 4 | Socratic questioning, discussion protocols, dialogic teaching moves, hinge questions |
 | 5 | **Literacy, Writing & Critical Thinking** | 7 | Argument structure, disciplinary writing, reading comprehension, source evaluation, text complexity, media literacy, critical thinking |
 | 6 | **EAL/D & Language Development** | 5 | Language demand analysis, vocabulary tiering, scaffolded task modification, sentence frames, sheltered instruction |
-| 7 | **Curriculum Design & Assessment** | 13 | Backwards design, competency unpacking, rubric generation, assessment validity, formative assessment, differentiation, gap analysis, learning progressions, PBL |
+| 7 | **Curriculum Design & Assessment** | 15 | Backwards design, competency unpacking, rubric generation, assessment validity, formative assessment, differentiation, gap analysis, learning progressions, PBL, threshold concept translation |
 | 8 | **Wellbeing, Motivation & Student Agency** | 12 | Motivation diagnostics, self-efficacy, wellbeing-learning connections, agency scaffolds, belonging, and related practices |
 | 9 | **Professional Learning & Teacher Development** | 9 | Lesson observation, reflective practice, PD session design, data interpretation, and related practices |
 | 10 | **Global & Cross-Cultural Pedagogies** | 9 | Variation theory, CPA sequences, phenomenon-based learning, culturally responsive teaching, Ubuntu, place-based inquiry, Reggio documentation, emergent projects, cross-cultural validity |
@@ -151,7 +161,7 @@ YAML schema headers, typed input and output fields, chaining metadata, and compo
 The library is Layer 1 of a three-layer system. See [ARCHITECTURE.md](ARCHITECTURE.md) for the full design.
 
 **Layer 1 — Skill Library** (this repository, complete and available now)
-106 skills across 14 domains. Each skill encodes a specific, evidence-grounded instructional or curriculum design decision. Works standalone today.
+108 skills across 14 domains. Each skill encodes a specific, evidence-grounded instructional or curriculum design decision. Works standalone today.
 
 **Layer 2 — Context Engine** *(in design)*
 Holds persistent information about students, classes, curriculum sequences, and assessment history. When connected, skill outputs become personalised — not generic advice about retrieval practice, but a specific retrieval schedule for this class based on what they have already learned and been assessed on.
@@ -217,7 +227,7 @@ An orchestrator calls `search_skills("retrieval practice")`, gets back candidate
 
 ### MCP Server
 
-The skill library is available as a live MCP server. Any MCP-compatible client can discover, search, and invoke all 107 skills programmatically.
+The skill library is available as a live MCP server. Any MCP-compatible client can discover, search, and invoke all 108 skills programmatically.
 
 **Production URL:** `https://mcp-server-sigma-sooty.vercel.app/mcp`
 
@@ -235,8 +245,8 @@ Connect from Claude.ai by adding the URL under **Integrations > MCP Servers**. C
 ```
 
 The server exposes:
-- **111 tools** (107 skills + 4 discovery tools: `list_skills`, `find_skills`, `suggest_skills`, `get_skill_details`)
-- **107 prompts** (for clients that surface MCP prompts)
+- **112 tools** (108 skills + 4 discovery tools: `list_skills`, `find_skills`, `suggest_skills`, `get_skill_details`)
+- **108 prompts** (for clients that surface MCP prompts)
 
 Source code, local setup, and development instructions: [`mcp-server/`](mcp-server/)
 
@@ -244,10 +254,10 @@ Source code, local setup, and development instructions: [`mcp-server/`](mcp-serv
 
 | Feature | Status |
 |---------|--------|
-| Layer 1 — Skill Library (107 skills) | ✅ Complete |
-| MCP Server (111 tools, live) | ✅ Complete |
-| Layer 2 — Context Engine | 🔵 In design |
-| Layer 3 — Orchestrator | 🔵 In design |
+| Layer 1 — Skill Library (108 skills) | Complete |
+| MCP Server (112 tools, live) | Complete |
+| Layer 2 — Context Engine | In design |
+| Layer 3 — Orchestrator | In design |
 
 ---
 
