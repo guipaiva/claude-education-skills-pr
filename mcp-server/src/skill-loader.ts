@@ -1,5 +1,5 @@
 import { readdir, readFile, stat } from "node:fs/promises";
-import { join, basename, resolve } from "node:path";
+import { join, basename, dirname, resolve } from "node:path";
 import matter from "gray-matter";
 import type { LoadedSkill, SkillMetadata } from "./types.js";
 
@@ -46,28 +46,61 @@ function buildToolName(skillId: string, duplicateSlugs: Set<string>): string {
 
 export async function loadSkills(libraryRoot: string): Promise<LoadedSkill[]> {
   const resolvedRoot = resolve(libraryRoot);
-  const entries = await readdir(resolvedRoot);
+  const skillsDir = join(resolvedRoot, "skills");
   const skills: LoadedSkill[] = [];
   const allFiles: { domain: string; filePath: string }[] = [];
 
-  // Collect all skill file paths
-  for (const entry of entries) {
-    if (IGNORED_DIRS.has(entry) || entry.startsWith(".")) continue;
-    const dirPath = join(resolvedRoot, entry);
-    const dirStat = await stat(dirPath);
-    if (!dirStat.isDirectory()) continue;
+  // v2 structure: skills/{domain}/{skill-name}/SKILL.md
+  let domains: string[];
+  try {
+    domains = await readdir(skillsDir);
+  } catch {
+    // Fallback: if skills/ doesn't exist, scan root (pre-v2 compat)
+    domains = [];
+    const rootEntries = await readdir(resolvedRoot);
+    for (const entry of rootEntries) {
+      if (IGNORED_DIRS.has(entry) || entry.startsWith(".")) continue;
+      const dirPath = join(resolvedRoot, entry);
+      const dirStat = await stat(dirPath);
+      if (!dirStat.isDirectory()) continue;
+      const files = await readdir(dirPath);
+      for (const file of files) {
+        if (!file.endsWith(".md") || IGNORED_FILES.has(file)) continue;
+        allFiles.push({ domain: entry, filePath: join(dirPath, file) });
+      }
+    }
+  }
 
-    const files = await readdir(dirPath);
-    for (const file of files) {
-      if (!file.endsWith(".md") || IGNORED_FILES.has(file)) continue;
-      allFiles.push({ domain: entry, filePath: join(dirPath, file) });
+  // Collect skill files from v2 structure
+  for (const domain of domains) {
+    if (IGNORED_DIRS.has(domain) || domain.startsWith(".")) continue;
+    const domainPath = join(skillsDir, domain);
+    const domainStat = await stat(domainPath);
+    if (!domainStat.isDirectory()) continue;
+
+    const skillDirs = await readdir(domainPath);
+    for (const skillDir of skillDirs) {
+      const skillDirPath = join(domainPath, skillDir);
+      const skillDirStat = await stat(skillDirPath);
+      if (!skillDirStat.isDirectory()) continue;
+
+      const skillFile = join(skillDirPath, "SKILL.md");
+      try {
+        await stat(skillFile);
+        allFiles.push({ domain, filePath: skillFile });
+      } catch {
+        // No SKILL.md in this directory, skip
+      }
     }
   }
 
   // Detect duplicate slugs
+  // v2: slug comes from parent directory name (skills/domain/SLUG/SKILL.md)
+  // v1 fallback: slug comes from filename (domain/slug.md)
   const slugCounts = new Map<string, number>();
   for (const { filePath } of allFiles) {
-    const slug = basename(filePath, ".md");
+    const fileName = basename(filePath);
+    const slug = fileName === "SKILL.md" ? basename(dirname(filePath)) : basename(filePath, ".md");
     slugCounts.set(slug, (slugCounts.get(slug) ?? 0) + 1);
   }
   const duplicateSlugs = new Set<string>();
@@ -96,7 +129,10 @@ export async function loadSkills(libraryRoot: string): Promise<LoadedSkill[]> {
       }
 
       const prompt = extractPrompt(content);
-      const description = extractDescription(content);
+      // Prefer v2 frontmatter description, fall back to markdown body extraction
+      const description = (typeof metadata.description === "string" && metadata.description)
+        ? metadata.description
+        : extractDescription(content);
       const toolName = buildToolName(metadata.skill_id, duplicateSlugs);
 
       skills.push({ metadata, prompt, description, filePath, toolName });

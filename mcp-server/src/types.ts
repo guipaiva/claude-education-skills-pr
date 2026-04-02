@@ -15,6 +15,13 @@ export interface OutputSchema {
 }
 
 export interface SkillMetadata {
+  // Agent Skills v2 fields
+  name?: string;
+  description?: string;
+  "disable-model-invocation"?: boolean;
+  "user-invocable"?: boolean;
+  effort?: string;
+  // Existing fields
   skill_id: string;
   skill_name: string;
   domain: string;

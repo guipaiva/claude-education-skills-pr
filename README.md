@@ -1,18 +1,47 @@
 # Claude Education Skills Library
 
-## Install
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-1.0-blue)](https://agentskills.io)
+[![Skills](https://img.shields.io/badge/skills-108-blue)](https://github.com/GarethManning/claude-education-skills)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Last Commit](https://img.shields.io/github/last-commit/GarethManning/claude-education-skills)](https://github.com/GarethManning/claude-education-skills/commits/main)
+
+An open-source library of 108 evidence-based pedagogical skills for curriculum design, lesson planning, and assessment — usable today by any educator with access to Claude, and engineered for AI agent orchestration.
+
+## Installation
+
+Three ways to use the library, depending on your setup:
+
+### Claude.ai / Claude Desktop / Cowork
+
+Upload the library as a ZIP file via **Settings → Features → Skills**, or toggle it on from the Skills Directory once listed. All 108 skills become available in your conversations — skills auto-activate when your conversation matches their trigger descriptions.
+
+### Claude Code
 
 ```
 /plugin install GarethManning/claude-education-skills
 ```
-Or browse the [Skills Directory](https://claude.ai) to install individual domain bundles.
 
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-1.0-blue)](https://agentskills.io)
-[![Skills](https://img.shields.io/badge/skills-107-blue)](https://github.com/GarethManning/claude-education-skills)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Last Commit](https://img.shields.io/github/last-commit/GarethManning/claude-education-skills)](https://github.com/GarethManning/claude-education-skills/commits/main)
+One command. All 108 skills load as Agent Skills with progressive disclosure — only the skill metadata is loaded until a skill is actually needed.
 
-An open-source library of 106 evidence-based Claude skills for curriculum design, lesson planning, and assessment — usable today by any educator with access to Claude, and engineered for AI agent orchestration.
+### API / Programmatic Access
+
+Connect to the live MCP server:
+
+```
+https://mcp-server-sigma-sooty.vercel.app/mcp
+```
+
+Any MCP-compatible client can discover all 108 skills, read their schemas, and call them with structured parameters. Four meta-tools provide discovery: `list_skills`, `find_skills`, `suggest_skills`, and `get_skill_details`.
+
+## What Changed in v2
+
+The library is now compliant with the **Agent Skills 1.0 open standard**. What this means in practice:
+
+- **One-command install** — no manual setup, no copy-pasting prompts
+- **Progressive disclosure** — skill metadata loads first; full skill content loads only when activated, keeping context lean
+- **Auto-activation** — skills trigger when your conversation matches their description, without explicit invocation
+- **Machine-readable registry** — `registry.json` indexes all skills with descriptions, tags, chaining metadata, and domain grouping for programmatic consumption
+- **Backward compatible** — the MCP server, direct prompt use, and all existing workflows continue to work unchanged
 
 ---
 

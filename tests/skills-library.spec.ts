@@ -5,7 +5,7 @@ import * as yaml from "yaml";
 
 const SKILLS_DIR = path.join(__dirname, "..", "skills");
 const REGISTRY_PATH = path.join(__dirname, "..", "registry.json");
-const PLUGIN_PATH = path.join(__dirname, "..", "plugin.json");
+const PLUGIN_PATH = path.join(__dirname, "..", ".claude-plugin", "plugin.json");
 
 // Helper: collect all SKILL.md paths
 function getAllSkillPaths(): string[] {

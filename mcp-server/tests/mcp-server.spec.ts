@@ -26,18 +26,18 @@ test.describe("MCP Server — Startup", () => {
     await client?.close();
   });
 
-  test("registers 111 tools (107 skills + 4 meta) and 107 prompts", async () => {
+  test("registers 112 tools (108 skills + 4 meta) and 108 prompts", async () => {
     client = await createClient();
 
     const { tools } = await client.listTools();
     const metaTools = ["list_skills", "get_skill_details", "find_skills", "suggest_skills"];
-    expect(tools.length).toBe(111);
+    expect(tools.length).toBe(112);
     for (const name of metaTools) {
       expect(tools.find((t) => t.name === name)).toBeTruthy();
     }
 
     const { prompts } = await client.listPrompts();
-    expect(prompts.length).toBe(107);
+    expect(prompts.length).toBe(108);
   });
 });
 
