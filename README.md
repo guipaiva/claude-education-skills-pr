@@ -51,7 +51,7 @@ Three ways to use the library, depending on your setup:
 
 ### Claude.ai / Claude Desktop / Cowork
 
-Available in the Skills Directory once listed — toggle it on from the Customize page. In the meantime, connect via the MCP server (see [API / Programmatic Access](#api--programmatic-access) below) to access all 108 skills in any Claude conversation. Skills auto-activate when your conversation matches their topic — no explicit invocation needed.
+Connect via the MCP server to access all 108 skills in any Claude conversation — add `https://mcp-server-sigma-sooty.vercel.app/mcp` under **Settings → Connectors**. Skills activate when your conversation matches their topic. A dedicated Skills Directory listing is in progress.
 
 ### Claude Code CLI
 
