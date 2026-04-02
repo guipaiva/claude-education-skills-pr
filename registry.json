@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "generated": "2026-04-02T07:20:54.322487+00:00",
+  "generated": "2026-04-02T07:38:11.349395+00:00",
   "standard": "agent-skills-1.0",
-  "total_skills": 107,
+  "total_skills": 108,
   "domains": [
     {
       "id": "ai-learning-science",
@@ -12,7 +12,7 @@
     {
       "id": "curriculum-assessment",
       "label": "Curriculum & Assessment",
-      "skill_count": 14
+      "skill_count": 15
     },
     {
       "id": "eal-language-development",
@@ -1002,6 +1002,40 @@
         "input_field": null
       },
       "path": "skills/curriculum-assessment/scope-and-sequence-designer/SKILL.md"
+    },
+    {
+      "id": "curriculum-assessment/threshold-concept-kud-translator",
+      "name": "threshold-concept-kud-translator",
+      "display_name": "Threshold Concept to KUD Translator",
+      "domain": "curriculum-assessment",
+      "description": "Translate a threshold concept from disciplinary language into developmentally appropriate Know/Understand/Do for a specific band. Use when building programme-level KUD frameworks from threshold concepts.",
+      "disable_model_invocation": true,
+      "evidence_strength": "moderate",
+      "tags": [
+        "threshold-concepts",
+        "KUD",
+        "Meyer-Land",
+        "Wiggins-McTighe",
+        "developmental-bands",
+        "curriculum-mapping",
+        "programme-design",
+        "spiral-curriculum"
+      ],
+      "teacher_time": "5 minutes",
+      "chains_with": [
+        "kud-knowledge-type-mapper",
+        "learning-target-authoring-guide",
+        "coherent-rubric-logic-builder",
+        "curriculum-knowledge-architecture-designer",
+        "developmental-band-system-designer"
+      ],
+      "chain_edges": {
+        "receives_from": [],
+        "feeds_into": [],
+        "output_field": null,
+        "input_field": null
+      },
+      "path": "skills/curriculum-assessment/threshold-concept-kud-translator/SKILL.md"
     },
     {
       "id": "eal-language-development/academic-language-sentence-frame-generator",

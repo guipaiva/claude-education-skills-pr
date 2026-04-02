@@ -38,7 +38,7 @@ function parseFrontmatter(filePath: string): Record<string, unknown> {
 test.describe("Skill Discovery", () => {
   test("finds exactly 107 SKILL.md files", () => {
     const paths = getAllSkillPaths();
-    expect(paths.length).toBe(107);
+    expect(paths.length).toBe(108);
   });
 
   test("skills span exactly 14 domains", () => {
@@ -129,8 +129,8 @@ test.describe("Registry Validation", () => {
   });
 
   test("registry contains 107 skills", () => {
-    expect(registry.total_skills).toBe(107);
-    expect(registry.skills.length).toBe(107);
+    expect(registry.total_skills).toBe(108);
+    expect(registry.skills.length).toBe(108);
   });
 
   test("registry contains 14 domains", () => {
